@@ -1,0 +1,17 @@
+//components;
+@import '/src/components/Header/Header.scss';
+@import '/src/components/PostCard/PostCard.scss';
+@import '/src/components/PostsList/PostsList.scss';
+
+//fonts && vars
+@import './variables/fonts.scss';
+@import './variables/colors.scss';
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--font-primary);
+  background: var(--bg-primary);
+}
+
+
